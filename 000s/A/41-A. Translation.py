@@ -1,3 +1,7 @@
-s = input().strip()
-t = input().strip()
-print("YES" if s[::-1] == t else "NO")
+s = input().strip()   
+t = input().strip()  
+
+if s[::-1] == t:      
+    print("YES")      
+else:
+    print("NO")       
